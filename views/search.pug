@@ -1,0 +1,10 @@
+extends layout.pug
+block content
+  form(method='get', action='/books/search')
+    input(type='text', placeholder='Search..', name='search')
+    input(type='submit' value = "Search")
+  ul
+    li
+      a.button(href='/') Home
+      b &nbsp;
+      a.button(href='/books/new') Create New Book

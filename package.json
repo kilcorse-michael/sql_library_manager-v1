@@ -1,0 +1,20 @@
+{
+  "name": "sql_library_manager-v1",
+  "version": "1.0.0",
+  "description": "A web application that'll include pages to list, add, update, and delete books from an existing SQLite database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm test"
+  },
+  "author": "Michael A. Kilcorse <kilcorse.michael92@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "sequelize": "^5.9.4",
+    "sequelize-cli": "^5.5.0",
+    "sqlite3": "^4.0.9"
+  }
+}
